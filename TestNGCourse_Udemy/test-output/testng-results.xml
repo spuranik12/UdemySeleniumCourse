@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24575" started-at="2019-08-09T04:52:44Z" finished-at="2019-08-09T04:53:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24575" started-at="2019-08-09T04:52:44Z" finished-at="2019-08-09T04:53:09Z">
+      <class name="testDemo.HandlingGlobalValuesFromProperties">
+        <test-method status="PASS" signature="openBrowserWithoutHardcoding()[pri:0, instance:testDemo.HandlingGlobalValuesFromProperties@5f375618]" name="openBrowserWithoutHardcoding" duration-ms="24524" started-at="2019-08-09T10:22:44Z" finished-at="2019-08-09T10:23:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserWithoutHardcoding -->
+      </class> <!-- testDemo.HandlingGlobalValuesFromProperties -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

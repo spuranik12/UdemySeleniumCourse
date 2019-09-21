@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="testDemo.Listners"/>
+  </listeners>
+  <test name="Loan Department(failed)">
+    <parameter name="URL" value="Loan.com"/>
+    <classes>
+      <class name="testDemo.Test1">
+        <methods>
+          <include name="runBeforeTest"/>
+          <include name="afterSuiteMethod"/>
+          <include name="beforeSuiteMethod"/>
+          <include name="webLoginCarLoan"/>
+          <include name="afterBeforeTest"/>
+        </methods>
+      </class> <!-- testDemo.Test1 -->
+    </classes>
+  </test> <!-- Loan Department(failed) -->
+</suite> <!-- Failed suite [Suite] -->

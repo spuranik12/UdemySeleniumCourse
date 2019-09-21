@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="2">
+	<listeners>
+  		<listener class-name="testDemo.Listners" />
+  	</listeners>
+
+  <test name="Loan Department">
+  <parameter name = "URL" value ="Loan.com" />
+    <classes>
+      <class name="testDemo.Test2"/>
+      <class name="testDemo.Test1"/>
+    </classes>
+  </test>
+  
+  <test name = "Insurance Department">
+  <parameter name = "URL" value ="Insurance.com" />
+  	<classes>
+  		<class name = "testDemo.Test3">
+  			<methods>
+  			<!-- Reg expressions are used if we want to execute tests which has name mentioned -->
+  				<exclude name = "car.*"/>
+  			</methods>
+  		</class>
+  	</classes>
+  	
+  	<!-- IF WE WANT TO RUN ENTIRE PACKAGE INCASE OF REGRESSION OR SMOKE, JUST NEED TO SPECIFY PACKAGE NAME -->
+  	
+  	<!-- <packages>
+  		<package name = "testDemo" />
+  	
+  	</packages> -->
+  	
+  	
+  </test>
+</suite> <!-- Suite -->
